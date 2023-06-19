@@ -26,6 +26,7 @@ with open (budget_data_csv) as profit_data:
 
 # Add variables
         total_months = total_months + 1
+
 # Set to read value as integer
         total_profit = total_profit + int(row[1])
 
